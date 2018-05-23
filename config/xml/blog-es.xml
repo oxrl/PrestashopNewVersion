@@ -6,6 +6,14 @@
     <language>es</language>
      <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>¿Cómo reducir el tamaño y peso de las fotos de tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/reducir-tamano-fotos</link>
+    <description>¿Conoces la verdadera importancia de bajar el peso y reducir el tamaño de las fotos dentro de la web de tu negocio online?</description>
+     <pubDate>Thu, 17 May 2018 11:37:05 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/reducir-tamano-fotos</guid>
+  </item>
+  <item>
     <title>¿Cómo usar &amp;quot;Instagram Shopping&amp;quot; para vender más con tu tienda online?</title>
     <link>https://www.prestashop.com/es/blog/instagram-shopping</link>
     <description>¿Has probado ya la nueva funcionalidad de &quot;Instagram Shopping&quot; en la cuenta corporativa de tu eCommerce?</description>
@@ -76,14 +84,6 @@
      <pubDate>Wed, 25 Apr 2018 08:44:57 +0200</pubDate>
  <dc:creator>Mariela Quiroga</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/es/blog/seis-sencillas-sugerencias-para-tu-pagina-sobre-nosotros</guid>
-  </item>
-  <item>
-    <title>¿Cómo crear una tienda en &amp;quot;Facebook Shopping&amp;quot; que te ayude a potenciar tus ventas?</title>
-    <link>https://www.prestashop.com/es/blog/facebook-shopping</link>
-    <description>¿Aún no conoces las ventajas de usar &quot;Facebook Shopping&quot; dentro de la Fan Page de tu tienda online?</description>
-     <pubDate>Mon, 23 Apr 2018 10:07:55 +0200</pubDate>
- <dc:creator>Jose Facchin</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/facebook-shopping</guid>
   </item>
   </channel>
 </rss>
