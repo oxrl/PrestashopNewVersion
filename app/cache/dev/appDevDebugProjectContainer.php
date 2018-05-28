@@ -4044,7 +4044,7 @@ class appDevDebugProjectContainer extends Container
 
         $e = new \Symfony\Component\Security\Http\AccessMap();
 
-        return $this->services['security.firewall.map.context.main'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($e, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(80, 443), $a), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($b, array(0 => new \Symfony\Component\Security\Core\User\InMemoryUserProvider(), 1 => $this->get('prestashop.security.admin.provider')), 'main', $a, $this->get('debug.event_dispatcher', ContainerInterface::NULL_ON_INVALID_REFERENCE)), 2 => new \Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener($b, '5af9c3a80ffe95.38606213', $a, $c), 3 => new \Symfony\Component\Security\Http\Firewall\AccessListener($b, $this->get('security.access.decision_manager'), $e, $c)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($b, $this->get('security.authentication.trust_resolver'), new \Symfony\Component\Security\Http\HttpUtils($d, $d), 'main', NULL, NULL, NULL, $a, false));
+        return $this->services['security.firewall.map.context.main'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($e, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(80, 443), $a), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($b, array(0 => new \Symfony\Component\Security\Core\User\InMemoryUserProvider(), 1 => $this->get('prestashop.security.admin.provider')), 'main', $a, $this->get('debug.event_dispatcher', ContainerInterface::NULL_ON_INVALID_REFERENCE)), 2 => new \Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener($b, '5b0b8ebc6facd4.71682161', $a, $c), 3 => new \Symfony\Component\Security\Http\Firewall\AccessListener($b, $this->get('security.access.decision_manager'), $e, $c)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($b, $this->get('security.authentication.trust_resolver'), new \Symfony\Component\Security\Http\HttpUtils($d, $d), 'main', NULL, NULL, NULL, $a, false));
     }
 
     /**
@@ -5157,7 +5157,7 @@ class appDevDebugProjectContainer extends Container
      */
     protected function getSecurity_Authentication_ManagerService()
     {
-        $this->services['security.authentication.manager'] = $instance = new \Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager(array(0 => new \Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider('5af9c3a80ffe95.38606213')), true);
+        $this->services['security.authentication.manager'] = $instance = new \Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager(array(0 => new \Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider('5b0b8ebc6facd4.71682161')), true);
 
         $instance->setEventDispatcher($this->get('debug.event_dispatcher'));
 
@@ -5393,36 +5393,38 @@ class appDevDebugProjectContainer extends Container
                 22 => 'ps_searchbar',
                 23 => 'ps_sharebuttons',
                 24 => 'ps_shoppingcart',
-                25 => 'ps_socialfollow',
-                26 => 'ps_wirepayment',
-                27 => 'pagesnotfound',
-                28 => 'sekeywords',
-                29 => 'statsbestcategories',
-                30 => 'statsbestcustomers',
-                31 => 'statsbestproducts',
-                32 => 'statsbestsuppliers',
-                33 => 'statsbestvouchers',
-                34 => 'statscarrier',
-                35 => 'statscatalog',
-                36 => 'statscheckup',
-                37 => 'statsdata',
-                38 => 'statsequipment',
-                39 => 'statsforecast',
-                40 => 'statslive',
-                41 => 'statsnewsletter',
-                42 => 'statsorigin',
-                43 => 'statspersonalinfos',
-                44 => 'statsproduct',
-                45 => 'statsregistrations',
-                46 => 'statssales',
-                47 => 'statssearch',
-                48 => 'statsstock',
-                49 => 'statsvisits',
-                50 => 'welcome',
-                51 => 'gamification',
-                52 => 'cronjobs',
-                53 => 'psaddonsconnect',
-                54 => 'blockreassurance',
+                25 => 'ps_wirepayment',
+                26 => 'pagesnotfound',
+                27 => 'sekeywords',
+                28 => 'statsbestcategories',
+                29 => 'statsbestcustomers',
+                30 => 'statsbestproducts',
+                31 => 'statsbestsuppliers',
+                32 => 'statsbestvouchers',
+                33 => 'statscarrier',
+                34 => 'statscatalog',
+                35 => 'statscheckup',
+                36 => 'statsdata',
+                37 => 'statsequipment',
+                38 => 'statsforecast',
+                39 => 'statslive',
+                40 => 'statsnewsletter',
+                41 => 'statsorigin',
+                42 => 'statspersonalinfos',
+                43 => 'statsproduct',
+                44 => 'statsregistrations',
+                45 => 'statssales',
+                46 => 'statssearch',
+                47 => 'statsstock',
+                48 => 'statsvisits',
+                49 => 'welcome',
+                50 => 'gamification',
+                51 => 'cronjobs',
+                52 => 'psaddonsconnect',
+                53 => 'blockreassurance',
+                54 => 'ps_socialfollow',
+                55 => 'mi_segundo_modulo',
+                56 => 'mymodule',
             ),
             'database_host' => 'localhost',
             'database_port' => '',
